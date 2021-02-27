@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--SEO-->
+    <!--La description tiene que tener como maximo 160 caracteres, son claves las palabras que se usan en la descripcion-->
+    <meta name="description" content="Tenemos los mejores precios de Natura y Tupperware de San Rafael, promociones, ofertas y outlet">
+    <meta name="keywords" content="natura, tupperware, ofertas, barato, promociones, combos, san rafael">
+    <meta name="author" content="Fer Lopez">
+    <meta name="copyright" content="Fer media">
+
+    <!--Opengraph-->
+    <!--Datos para cuando compartis la pagina web, por redes sociales, o por mensajes-->
+    <meta property="og-title" content="Showroom Mariana - Venta de Natura y Tupperware en San Rafael">
+    <meta property="og-description" content="Tenemos los mejores precios de Natura y Tupperware de San Rafael, promociones, ofertas y outlet">
+    <meta property="og-image" content="images/logo.png">
+    <meta property="og-url" content="https://www.miweb.com">
+    <meta property="og-type" content="website">
+    <meta property="og-locale" content="es_ES">
+
+    <!--Favicon-->
+    <!--Es el icono de la pestana del navegador, suma en el posicionamiento-->
+    <link rel="stylesheet" href="images/logo.jpg" type="image/x-icon">
+
+    <!-- Tamano de 70 caracteres y la palabra clave tiene que ir al principio-->
+    <title>Showroom Mariana - Venta de Natura y Tupperware</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="" class="logo">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" target="_blank">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="natura.html" target="_blank">Natura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tupperware.html" target="_blank">Tupperware</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin Header-->
+    
+    <main>
+        <section class="section-title">
+            <h1>CONTACTO</h1>
+        </section>
+
+        <section class="form-container">
+            <form action="/Server/" method="POST" class="form">   <!-- action la url que procesa el formulario -->
+                <div class="row p-2">
+                    <div class="col-2"></div>
+                    <div class="col-2">
+                        <label for="full-name">Nombre:</label>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <input type="text" name="" id="full-name" placeholder="Ingresa tu nombre" class="w-100">
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-2"></div>
+                    <div class="col-2">
+                        <label for="email">Email:</label>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <input type="email" name="email" id="email" placeholder="Ingresa tu email" class="w-100">
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-2"></div>
+                    <div class="col-2">
+                        <label for="mensaje">Consulta:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <textarea name="mensaje" id="mensaje" rows="7" class="w-100"></textarea>
+                    </div>
+                </div>
+                <div class="form-btn">
+                    <button type="submit" class="btn btn-primary mx-auto">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+    
+    <footer class="footer-container">
+        <div class="footer">
+            <span class="footer-copyright">Copyright 2021</span> 
+            <span class="footer-icons"><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></span>
+            <span class="footer-icons"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></span>    <!-- trae el icono de twitter desde la pagina fontawesome-->
+            <span class="footer-icons"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></span>
+        </div>
+    </footer>
+
+</body>
+</html>

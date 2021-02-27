@@ -1,0 +1,38 @@
+* {   /* valores por defecto de html se pueden modificar, reseteo los valores por defecto de html*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/***********************************************MEDIA QUERY**********************************************/
+/* Media query para diseno responsive */
+
+/* Mobile - todo lo que tenga una pantalla de este tamano, se aplicara todo lo que esta entre las llaves */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color:rgb(52, 94, 104)
+    }
+
+    .nav-header {
+        display: none; /* desaparece el header cuando lo visualizamos en mobile */
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #aec2d4;
+    }
+
+    .photo-grid-item {
+        width: 50% !important;   /* !import le da prioridad */
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px){
+    body {
+        background-color: white;
+    }
+}
+/********************************************FIN MEDIA QUERY*********************************************/
