@@ -1,8 +1,9 @@
+@import 'style-base';
 @import '../mediaQuery/query';
 @import 'variable';
-@import 'style-base';
 @import 'extends';
 @import '../component/header';
+@import '../component/navbar';
 @import '../component/main';
 @import '../component/footer';
 
