@@ -1,16 +1,47 @@
 
-.header-container {
+.header{
     font-family: 'Rubik', sans-serif;
     font-size: 28px; 
-    width: 100%;
-    max-width: 100%;
+    /*width: 100%;
+    max-width: 100%;*/
     text-align: center;
+    /*border: 1px solid black;*/
 
-    .header {
-        width: 100%;
+}
+
+.header-sticky-container {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(-45deg, #f1815f, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+
+    .logo {
+        width: 90px;
+        border-radius: 30px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
 

@@ -45,50 +45,46 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header-container">
-        <div class="header">
-            <div class="row">
-                <div class="col-12">
-                    <img src="images/titulo.png" class="w-100" alt="">
-                </div>
-            </div>
+    <div class="header-sticky-container py-4">
+        <img src="images/logo2.png" alt="" class="logo">
+        <div class="content py-1 text-white">
+            <h1>SHOWROOM DE MARIANA</h1>
+            <h4>NATURA - TUPPERWARE</h4>
         </div>
-    </header>
+    </div>
 
-    <nav class="navbar navbar-expand-md sticky-top fixed-top navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html" target="_blank">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="natura.html" target="_blank">Natura</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tupperware.html" target="_blank">Tupperware</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Header -->
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!--<a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>-->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target="_blank">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="natura.html" target="_blank">Natura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tupperware.html" target="_blank">Tupperware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- Fin header -->
 
     <!-- Content -->
     <main>
-        <!--<section class="section-title">
-            <img src="images/titulo.png" class="w-100" alt="">
-        </section>-->
-
         <section class="carousel-container">
             <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
                 <ul class="carousel-indicators">
@@ -124,13 +120,41 @@
             </div>
         </section>
 
-        <!--<section class="section-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RyvCFByAxBU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WlhFiBAvTAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>-->
-
+        <div class="py-4 title">
+            <h2>Ofertas Destacadas</h2>
+        </div>
         <section class="section-container-text">
-            <p>
+            <div class="card">
+                <img src="images/natura/perfume1.jpg" alt="Denim Jeans" style="width:300px">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$100</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Consultar</button></p>
+            </div> 
+            <div class="card">
+                <img src="images/natura/crema2.jpg" alt="Denim Jeans" style="width:300px">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$200</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Consultar</button></p>
+            </div> 
+            <div class="card">
+                <img src="images/tupperware/tupperware3.jpg" alt="Denim Jeans" style="width:300px">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$300</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Consultar</button></p>
+            </div>
+            <div class="card">
+                <img src="images/tupperware/tupperware4.jpg" alt="Denim Jeans" style="width:300px">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$400</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Consultar</button></p>
+            </div> 
+
+            
+            <!--<p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nihil praesentium tenetur excepturi atque error animi a ad id ea ab dolores deleniti, dolore officia voluptatem aliquid? Totam, eum vero.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod inventore odit aut, error voluptates, consectetur iusto asperiores ut corrupti omnis dicta culpa mollitia aliquid officiis numquam odio commodi ea obcaecati?
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dicta dolor incidunt, aliquam inventore eaque, tempore exercitationem reprehenderit, consectetur porro fugiat corrupti earum delectus! Omnis illo blanditiis nisi non necessitatibus.
@@ -145,7 +169,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam ea dolore facilis possimus porro consequatur repudiandae quaerat vel perferendis nesciunt vero, aspernatur eaque enim corporis deleniti reiciendis blanditiis id.
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit et quasi tempora, quos deleniti praesentium saepe laborum ratione aliquid porro atque eligendi illum voluptates ex id beatae, ipsum nisi culpa.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis a est quae consequuntur laborum sequi ut ullam placeat assumenda, neque veniam officiis doloremque totam, ad nulla quas voluptatem eos voluptate.
-            </p>
+            </p>-->
         </section>
     </main>
     <!-- Fin Content -->
@@ -167,5 +191,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>-->
 </body>
 </html>
