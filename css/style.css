@@ -119,7 +119,9 @@ p {
 .section-container-text .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
+  /*max-height: 250px;*/
   margin: auto;
+  /*height: 300px;*/
   text-align: center;
   font-family: arial;
 }
@@ -272,6 +274,20 @@ a:focus {
 }
 #blog_area .card .card__content span > a:hover {
   opacity: 1;
+}
+
+.presentation {
+  /*font-family: 'Itim', cursive;*/
+  /*font-family: 'Overlock', cursive;*/
+  /*font-family: 'Merienda', cursive;*/
+  font-family: "Kalam", cursive;
+  font-size: 38px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /*background-color: #CD5C5C;*/
+  background: linear-gradient(#3466ae 0%, #5390f1 100%);
+  padding: 60px;
 }
 
 #masonry {

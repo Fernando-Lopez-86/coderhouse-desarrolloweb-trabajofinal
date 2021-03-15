@@ -14,7 +14,9 @@
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 300px;
+        /*max-height: 250px;*/
         margin: auto;
+        /*height: 300px;*/
         text-align: center;
         font-family: arial;
       }
@@ -190,6 +192,20 @@ a:focus {
       }
     }
   }
+}
+
+.presentation {
+  /*font-family: 'Itim', cursive;*/
+  /*font-family: 'Overlock', cursive;*/
+  /*font-family: 'Merienda', cursive;*/
+  font-family: 'Kalam', cursive;
+  font-size: 38px; 
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /*background-color: #CD5C5C;*/
+  background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);
+  padding: 60px;
 }
 
 #masonry {
