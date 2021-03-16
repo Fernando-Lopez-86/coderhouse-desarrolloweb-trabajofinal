@@ -161,11 +161,12 @@ strong {
   z-index: 0;
 }
 
-.form-container {
+/*.form-container {
   /*width: 100%;
   display: flex;
-  justify-content: center;*/
-}
+  justify-content: center;
+}*/
+
 .form-container .form {
   background-color: #e5eaee;
   border-radius: 3px;
