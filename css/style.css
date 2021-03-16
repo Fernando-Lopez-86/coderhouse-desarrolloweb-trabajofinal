@@ -161,12 +161,11 @@ strong {
   z-index: 0;
 }
 
-/*.form-container {
+.form-container {
   /*width: 100%;
   display: flex;
-  justify-content: center;
-}*/
-
+  justify-content: center;*/
+}
 .form-container .form {
   background-color: #e5eaee;
   border-radius: 3px;
@@ -264,6 +263,12 @@ a:focus {
 }
 #blog_area .card .card__content span > a:hover {
   opacity: 1;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #5dc1b9;
 }
 
 .presentation {
