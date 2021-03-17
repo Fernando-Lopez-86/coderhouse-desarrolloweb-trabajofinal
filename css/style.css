@@ -86,7 +86,7 @@ strong {
     background-position: 0% 50%;
   }
 }
-.navbar-nav .nav-item {
+.nav-item {
   padding: 5px;
   padding-left: 50px;
   padding-right: 50px;
@@ -175,9 +175,7 @@ strong {
   padding-top: 10px;
 }
 
-a,
-a:hover,
-a:focus {
+a, a:hover, a:focus {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.25s ease 0s;
@@ -258,6 +256,12 @@ a:focus {
 }
 #blog_area .card .card__content span > a:hover {
   opacity: 1;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #5dc1b9;
 }
 
 .presentation {
