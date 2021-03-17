@@ -86,7 +86,7 @@ strong {
     background-position: 0% 50%;
   }
 }
-.navbar-nav .nav-item {
+.nav-item {
   padding: 5px;
   padding-left: 50px;
   padding-right: 50px;
@@ -161,6 +161,11 @@ strong {
   z-index: 0;
 }
 
+.form-container {
+  /*width: 100%;
+  display: flex;
+  justify-content: center;*/
+}
 .form-container .form {
   background-color: #e5eaee;
   border-radius: 3px;
@@ -175,9 +180,7 @@ strong {
   padding-top: 10px;
 }
 
-a,
-a:hover,
-a:focus {
+a, a:hover, a:focus {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.25s ease 0s;
