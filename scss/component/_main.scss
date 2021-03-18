@@ -56,9 +56,6 @@
 
 .carousel-container {
     @extend %flex;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*width: 100%;*/
     margin: auto;
     max-width: 100%;
     height: auto;
@@ -74,9 +71,6 @@
 
 .form-container {
     @extend %flex;
-    /*width: 100%;
-    display: flex;
-    justify-content: center;*/
 
     .form {
         background-color: #e5eaee;
@@ -198,6 +192,14 @@ a, a:hover, a:focus {
   border: 1px solid #5dc1b9;
 }
 
+.presentation-container {
+  width: 100%;
+  height: 30%;
+  padding-top: 40px;
+  /*padding-left: 70px;*/
+  border: 1px solid black;
+}
+
 .presentation {
   /*font-family: 'Itim', cursive;*/
   /*font-family: 'Overlock', cursive;*/
@@ -207,9 +209,15 @@ a, a:hover, a:focus {
   width: 100%;
   height: auto;
   text-align: center;
-  /*background-color: #CD5C5C;*/
-  background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);
-  padding: 60px;
+  /*background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);*/
+  /*padding: 40px;*/
+  border: 1px color black;
+}
+
+.presentation-image {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
 }
 
 #masonry {
