@@ -86,11 +86,17 @@ strong {
     background-position: 0% 50%;
   }
 }
+/* change the color of active or hovered links */
 .nav-item {
   padding: 5px;
   padding-left: 50px;
   padding-right: 50px;
   font-size: 20px;
+}
+.nav-item .nav-link:hover {
+  /*font-size: 21px;*/
+  /*font: bold;*/
+  color: blue;
 }
 
 .title {
