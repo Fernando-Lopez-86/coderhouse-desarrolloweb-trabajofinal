@@ -192,20 +192,55 @@ a, a:hover, a:focus {
   border: 1px solid #5dc1b9;
 }
 
-.presentation-container {
+.presentation-natura-container {
   /*display: flex;*/
   width: 100%;
-  height: auto;
+  //height: auto;
   /*padding-top: 40px;
   padding-left: 70px;
   padding-right: 70px;*/
-  border: 1px solid black;
+  //border: 1px solid black;
+  //background-image: linear-gradient(#ff9d2f, #ff6126);
+ 
+  /*position: relative;*/
+  /*height: 300px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 5vw)
+  );*/
+  position: relative;
+  height: 350px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+}
+
+.presentation-tupperware-container {
+  width: 100%;
+  position: relative;
+  height: 350px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
 }
 
 .presentation {
   /*display: flex;
   flex-direction: column;*/
-  font-family: 'Kalam', cursive;
+  //font-family: 'Kalam', cursive;
+  /*font-family: 'Alfa Slab One', cursive;*/
+  /*font-family: 'Archivo Black', sans-serif;*/
+  //font-family: 'Paytone One', sans-serif; ////ESTA
+  font-family: 'Acme', sans-serif;
+  //font-family: 'Luckiest Guy', cursive;
+  //font-family: 'Ultra', serif;
+  //font-family: 'Carter One', cursive;
+  //font-family: 'Bowlby One', cursive;
+  //font-family: 'Seymour One', sans-serif;
+  //font-family: 'Chango', cursive;
   font-size: 28px; 
   width: 100%;
   height: auto;
@@ -213,12 +248,17 @@ a, a:hover, a:focus {
   /*background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);*/
   border: 1px color black;
   margin-top: 60px;
+
+
+  
+
+
 }
 
 .presentation-image {
   /*width: 100%;
   height: auto;*/
-  margin-top: 60px;
+  margin-top: 40px;
   /*margin-left: 60px;*/
   border-radius: 50%;
   /*padding: 60px;*/
