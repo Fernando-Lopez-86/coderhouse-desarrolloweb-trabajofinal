@@ -195,36 +195,45 @@ a, a:hover, a:focus {
 .presentation-natura-container {
   /*display: flex;*/
   width: 100%;
+  height: auto;
+  margin-top: 40px;
+  /*background-color: aqua;*/
   //height: auto;
   /*padding-top: 40px;
   padding-left: 70px;
   padding-right: 70px;*/
   //border: 1px solid black;
   //background-image: linear-gradient(#ff9d2f, #ff6126);
+
  
-  /*position: relative;*/
-  /*height: 300px;
-  background-image: linear-gradient(#ff9d2f, #ff6126);
-  clip-path: polygon(
+  /*background-image: linear-gradient(#ff9d2f, #ff6126);*/
+  /*clip-path: polygon(
     0 0,
     100% 0,
     100% 100%,
     0 calc(100% - 5vw)
   );*/
-  position: relative;
+  
+  /*position: relative;
   height: 350px;
   background-image: linear-gradient(#ff9d2f, #ff6126);
   border-bottom-left-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;*/
+
+  /*position: relative;
+  background: #09F;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;*/
+  
 }
 
 .presentation-tupperware-container {
   width: 100%;
-  position: relative;
-  height: 350px;
-  background-image: linear-gradient(#ff9d2f, #ff6126);
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
+  height: auto;
+  /*background-image: linear-gradient(#ff9d2f, #ff6126);*/
+  /*border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;*/
 }
 
 .presentation {
@@ -248,21 +257,53 @@ a, a:hover, a:focus {
   /*background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);*/
   border: 1px color black;
   margin-top: 60px;
-
-
-  
-
-
 }
 
-.presentation-image {
-  /*width: 100%;
-  height: auto;*/
+.presentation-image-natura {
+  /*width: 100%;*/
+  /*height: auto;*/
   margin-top: 40px;
   /*margin-left: 60px;*/
   border-radius: 50%;
   /*padding: 60px;*/
+  /*clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);*/
 }
+
+.presentation-image-tupperware {
+  /*width: 100%;*/
+  /*height: auto;*/
+  margin-top: 40px;
+  /*margin-left: 60px;*/
+  border-radius: 50%;
+  /*padding: 60px;*/
+  /*clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);*/
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  border: 1px solid black;
+  /*background-color: #5dc1b9;*/
+
+  position: relative;
+  height: auto;
+  background: #0b345d;
+  background-image: linear-gradient(155deg, #002f62 0%, #18496a 50%, #138b89 100%);
+
+}
+
+/*.section-background:before {
+  content: ' ';
+  border-top: 100vh solid #008ce6;
+  border-right: 100vw solid transparent;
+  width: 0;
+  position: absolute;
+}*/
 
 .row {
   margin-right: 0px;
