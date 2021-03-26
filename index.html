@@ -44,7 +44,7 @@
     <!--<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">--> 
     <!--<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">-->
-    <!--<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
     <!--<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">-->
@@ -52,6 +52,7 @@
     <!--<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet"> 
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -136,21 +137,26 @@
 
         <section class="section">
             <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 375" >
-                <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" stroke-width="120" stroke-linecap="round"/>
+                <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%"   stop-color="#05a"/>
+                    <stop offset="100%" stop-color="#0a5"/>
+                </linearGradient>
+                <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="url(#linear)" stroke-width="120" stroke-linecap="round"/>
             </svg>
             <div class="row">
                 <div class="col presentation-natura-container">   
-                    <div class="d-flex justify-content-center">BIENVENIDOS AL SHOWROOM DE MARIANA</div>
-                    <div class="d-flex justify-content-center">TENEMOS STOCK DE PRODUCTOS NATURA Y TUPPERWARE</div> 
-                    <div class="d-flex justify-content-center">Y SI NO LO TENEMOS, LO PEDIMOS!!!</div> 
+                    <div class="d-flex justify-content-center">NATURA</div>
+                    <div class="d-flex justify-content-center">PERFUMES, CREMAS, LABIALES</div> 
+                    <div class="d-flex justify-content-center">PRODUCTOS EN STOCK Y A PEDIDO</div> 
+                    <div class="d-flex justify-content-center">CONSULTANOS!!!</div> 
                     <div class="d-flex justify-content-center"><img src="images/natura/nosotrosnatura.jpg" alt="" class="presentation-image-natura"></div>
                 </div>
 
                 <div class="col presentation-tupperware-container">
                     <div class="d-flex justify-content-center"><img src="images/tupperware/nosotrostupperware.jpg" alt="" class="presentation-image-tupperware"></div>
-                    <div class="d-flex justify-content-center">BIENVENIDOS AL SHOWROOM DE MARIANA</div>
-                    <div class="d-flex justify-content-center">TENEMOS STOCK DE PRODUCTOS NATURA Y TUPPERWARE</div> 
-                    <div class="d-flex justify-content-center">Y SI NO LO TENEMOS, LO PEDIMOS!!!</div> 
+                    <div class="d-flex justify-content-center">TUPPERWARE</div>
+                    <div class="d-flex justify-content-center">PRODUCTOS EN STOCK Y A PEDIDO</div> 
+                    <div class="d-flex justify-content-center">CONSULTANOS!!!</div> 
                 </div> 
             </div>
             
