@@ -1,0 +1,26 @@
+* {   /* valores por defecto de html se pueden modificar, reseteo los valores por defecto de html*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+strong {
+    background-color: #B2DEFF;
+}
+
+a, a:hover, a:focus {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s ease 0s;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+

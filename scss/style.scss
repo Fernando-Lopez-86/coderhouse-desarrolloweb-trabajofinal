@@ -1,1 +1,21 @@
-@import 'base/import';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'mediaQuery/query';
+
+@import 'utils/variable';
+@import 'utils/extends';
+@import 'utils/functions';
+
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+@import 'components/navbar';
+@import 'components/carousel';
+@import 'components/card';
+
+@import 'pages/index';
+@import 'pages/contacto';
+@import 'pages/blog';

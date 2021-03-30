@@ -1,0 +1,19 @@
+
+.form-container {
+    @extend %flex;
+
+    .form {
+        background-color: #e5eaee;
+        border-radius: 3px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: auto;
+        
+        .form-btn {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+    }
+}
