@@ -1,7 +1,7 @@
 
 .header{
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px; 
+    /*font-family: 'Rubik', sans-serif;
+    font-size: 28px;*/
     /*width: 100%;
     max-width: 100%;*/
     text-align: center;
@@ -10,8 +10,11 @@
 }
 
 .header-sticky-container {
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px; 
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    /*font-family: 'Rubik', sans-serif;
+    font-size: 28px;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,11 +23,18 @@
     animation: gradient 10s ease infinite;
 
     .logo {
-        width: 90px;
-        border-radius: 30px;
+        width: 100%;
+        max-width: 90px;
+        /*min-width: 45px;*/
+        height: auto;
+        /*border-radius: 30px;*/
+        text-align: center;
     }
 
     .content {
+        /*width: 100%;
+        height: auto;*/
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;

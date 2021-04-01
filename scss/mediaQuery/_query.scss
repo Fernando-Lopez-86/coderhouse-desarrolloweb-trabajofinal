@@ -4,17 +4,43 @@
 
 /* Mobile - todo lo que tenga una pantalla de este tamano, se aplicara todo lo que esta entre las llaves */
 @media only screen and (max-width: 400px) {
-    /*body {
-        background-color:rgb(52, 94, 104)
+
+    section {
+
+        .svg {
+            display: none; /* desaparece el header cuando lo visualizamos en mobile*/
+        }
+
+        .presentation-natura-container{
+            font-size: calc(1em + 1vw)  
+        }
+
+        .presentation-tupperware-container{
+            font-size: calc(1em + 1vw)  
+        }
     }
 
-    .nav-header {
-        display: none;*/ /* desaparece el header cuando lo visualizamos en mobile */
-    /*}*/
+    .header-sticky-container {
+
+        .content {
+            h1 {
+                font-size: calc(1em + 1vw)   
+            }
+
+            h4 {
+                font-size: calc(0.5em + 1vw)   
+            }
+        }
+    }
 }
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    .svg {
+        display: none; /* desaparece el header cuando lo visualizamos en mobile*/
+    }
+
     /*body {
         background-color: #aec2d4;
     }
@@ -31,3 +57,18 @@
     }*/
 }
 /********************************************FIN MEDIA QUERY*********************************************/
+
+@media all and (max-width: 600px){
+
+    div {
+        width:100%;
+        height:auto;
+        //margin-left:10px;
+    }
+
+    img {
+        width:100%;
+        height:auto;
+        //margin-left:10px;
+    }
+}

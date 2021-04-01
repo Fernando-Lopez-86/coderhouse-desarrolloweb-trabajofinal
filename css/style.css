@@ -36,21 +36,45 @@ a, a:hover, a:focus {
   font-size: 22px;
 }
 
+.header {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+}
+
+.header-sticky-container {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+}
+
 /***********************************************MEDIA QUERY**********************************************/
 /* Media query para diseno responsive */
 /* Mobile - todo lo que tenga una pantalla de este tamano, se aplicara todo lo que esta entre las llaves */
 @media only screen and (max-width: 400px) {
-  /*body {
-      background-color:rgb(52, 94, 104)
+  section .svg {
+    display: none;
+    /* desaparece el header cuando lo visualizamos en mobile*/
+  }
+  section .presentation-natura-container {
+    font-size: calc(1em + 1vw);
+  }
+  section .presentation-tupperware-container {
+    font-size: calc(1em + 1vw);
   }
 
-  .nav-header {
-      display: none;*/
-  /* desaparece el header cuando lo visualizamos en mobile */
-  /*}*/
+  .header-sticky-container .content h1 {
+    font-size: calc(1em + 1vw);
+  }
+  .header-sticky-container .content h4 {
+    font-size: calc(0.5em + 1vw);
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  .svg {
+    display: none;
+    /* desaparece el header cuando lo visualizamos en mobile*/
+  }
+
   /*body {
       background-color: #aec2d4;
   }
@@ -67,6 +91,17 @@ a, a:hover, a:focus {
   }*/
 }
 /********************************************FIN MEDIA QUERY*********************************************/
+@media all and (max-width: 600px) {
+  div {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
 .form-container, .carousel-container {
   width: 100%;
   display: flex;
@@ -86,8 +121,8 @@ a, a:hover, a:focus {
 }
 
 .header {
-  font-family: "Rubik", sans-serif;
-  font-size: 28px;
+  /*font-family: 'Rubik', sans-serif;
+  font-size: 28px;*/
   /*width: 100%;
   max-width: 100%;*/
   text-align: center;
@@ -95,8 +130,11 @@ a, a:hover, a:focus {
 }
 
 .header-sticky-container {
-  font-family: "Rubik", sans-serif;
-  font-size: 28px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  /*font-family: 'Rubik', sans-serif;
+  font-size: 28px;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -105,10 +143,17 @@ a, a:hover, a:focus {
   animation: gradient 10s ease infinite;
 }
 .header-sticky-container .logo {
-  width: 90px;
-  border-radius: 30px;
+  width: 100%;
+  max-width: 90px;
+  /*min-width: 45px;*/
+  height: auto;
+  /*border-radius: 30px;*/
+  text-align: center;
 }
 .header-sticky-container .content {
+  /*width: 100%;
+  height: auto;*/
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -241,7 +286,7 @@ a, a:hover, a:focus {
   border-radius: 50%;
 }
 
-svg {
+.svg {
   position: absolute;
   bottom: 0;
   width: 100%;
