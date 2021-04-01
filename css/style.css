@@ -50,15 +50,29 @@ a, a:hover, a:focus {
 /* Media query para diseno responsive */
 /* Mobile - todo lo que tenga una pantalla de este tamano, se aplicara todo lo que esta entre las llaves */
 @media only screen and (max-width: 400px) {
-  section .svg {
+  .section-introduction .svg-band {
     display: none;
     /* desaparece el header cuando lo visualizamos en mobile*/
   }
-  section .presentation-natura-container {
+  .section-introduction h3 {
     font-size: calc(1em + 1vw);
   }
-  section .presentation-tupperware-container {
-    font-size: calc(1em + 1vw);
+  .section-introduction h5 {
+    font-size: calc(0.5em + 1vw);
+  }
+  .section-introduction .presentation-natura-container {
+    font-size: calc(0.4em + 1vw);
+  }
+  .section-introduction .presentation-tupperware-container {
+    font-size: calc(0.4em + 1vw);
+  }
+  .section-introduction .presentation-image-tupperware {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .section-container-text h2 {
+    font-size: calc(0.8em + 1vw);
   }
 
   .header-sticky-container .content h1 {
@@ -67,12 +81,20 @@ a, a:hover, a:focus {
   .header-sticky-container .content h4 {
     font-size: calc(0.5em + 1vw);
   }
+
+  .footer-container {
+    font-size: 10px;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .svg {
+  .svg-band {
     display: none;
     /* desaparece el header cuando lo visualizamos en mobile*/
+  }
+
+  .logo {
+    display: none;
   }
 
   /*body {
@@ -91,17 +113,20 @@ a, a:hover, a:focus {
   }*/
 }
 /********************************************FIN MEDIA QUERY*********************************************/
-@media all and (max-width: 600px) {
-  div {
-    width: 100%;
-    height: auto;
-  }
+/*@media all and (max-width: 600px){
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
+    div {
+        width:100%;
+        height:auto;
+        //margin-left:10px;
+    }
+
+    img {
+        width:100%;
+        height:auto;
+        //margin-left:10px;
+    }
+}*/
 .form-container, .carousel-container {
   width: 100%;
   display: flex;
@@ -172,7 +197,6 @@ a, a:hover, a:focus {
 }
 .title {
   margin-top: 10px;
-  width: 100%;
   text-align: center;
 }
 
@@ -235,8 +259,9 @@ a, a:hover, a:focus {
 }
 
 .section-container-text {
-  /*display: flex;
-  flex-wrap: wrap;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .section-container-text .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -277,23 +302,28 @@ a, a:hover, a:focus {
 }
 
 .presentation-image-natura {
+  width: 100%;
+  max-width: 280px;
   margin-top: 15px;
   border-radius: 50%;
 }
 
 .presentation-image-tupperware {
+  width: 100%;
+  max-width: 390px;
   margin-top: 50px;
+  margin-bottom: 20px;
   border-radius: 50%;
 }
 
-.svg {
+.svg-band {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: auto;
 }
 
-.section {
+.section-introduction {
   position: relative;
   height: auto;
   background: #f5f5f5;

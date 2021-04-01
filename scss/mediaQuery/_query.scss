@@ -5,20 +5,42 @@
 /* Mobile - todo lo que tenga una pantalla de este tamano, se aplicara todo lo que esta entre las llaves */
 @media only screen and (max-width: 400px) {
 
-    section {
+    .section-introduction {
 
-        .svg {
+        .svg-band {
             display: none; /* desaparece el header cuando lo visualizamos en mobile*/
         }
 
-        .presentation-natura-container{
-            font-size: calc(1em + 1vw)  
+        h3 {
+            font-size: calc(1em + 1vw)    
         }
 
-        .presentation-tupperware-container{
-            font-size: calc(1em + 1vw)  
+        h5 {
+            font-size: calc(0.5em + 1vw)    
+        }
+
+        .presentation-natura-container {
+            font-size: calc(0.4em + 1vw)  
+        }
+
+        .presentation-tupperware-container {
+            font-size: calc(0.4em + 1vw)  
+        }
+
+        .presentation-image-tupperware {
+            margin-top: 25px;
+            margin-bottom: 20px;
+
         }
     }
+
+    .section-container-text {
+
+        h2 {
+            font-size: calc(0.8em + 1vw) 
+        }
+    }
+    
 
     .header-sticky-container {
 
@@ -32,13 +54,21 @@
             }
         }
     }
+
+    .footer-container {
+        font-size: 10px;    
+    }
 }
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-    .svg {
+    .svg-band {
         display: none; /* desaparece el header cuando lo visualizamos en mobile*/
+    }
+
+    .logo {
+        display: none;
     }
 
     /*body {
@@ -51,14 +81,14 @@
 }
 
 /* Desktop */
-@media only screen and (min-width: 961px){
+@media only screen and (min-width: 961px) {
     /*body {
         background-color: white;
     }*/
 }
 /********************************************FIN MEDIA QUERY*********************************************/
 
-@media all and (max-width: 600px){
+/*@media all and (max-width: 600px){
 
     div {
         width:100%;
@@ -71,4 +101,4 @@
         height:auto;
         //margin-left:10px;
     }
-}
+}*/
