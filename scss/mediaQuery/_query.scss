@@ -1,30 +1,30 @@
 
 /***********************************************MEDIA QUERY**********************************************/
 /* Media query para diseno responsive */
-
 /* Mobile - todo lo que tenga una pantalla de este tamano, se aplicara todo lo que esta entre las llaves */
+
 @media only screen and (max-width: 400px) {
 
     .section-introduction {
 
         .svg-band {
-            display: none; /* desaparece el header cuando lo visualizamos en mobile*/
+            display: none; 
         }
 
         h3 {
-            font-size: calc(1em + 1vw)    
+            font-size: calc(1em + 1vw);    
         }
 
         h5 {
-            font-size: calc(0.5em + 1vw)    
+            font-size: calc(0.5em + 1vw);    
         }
 
         .presentation-natura-container {
-            font-size: calc(0.4em + 1vw)  
+            font-size: calc(0.4em + 1vw);  
         }
 
         .presentation-tupperware-container {
-            font-size: calc(0.4em + 1vw)  
+            font-size: calc(0.4em + 1vw);  
         }
 
         .presentation-image-tupperware {
@@ -37,16 +37,15 @@
     .section-container-text {
 
         h2 {
-            font-size: calc(0.8em + 1vw) 
+            font-size: calc(0.7em + 1vw); 
         }
     }
     
-
     .header-sticky-container {
 
         .content {
             h1 {
-                font-size: calc(1em + 1vw)   
+                font-size: calc(1em + 1vw);   
             }
 
             h4 {
@@ -54,9 +53,17 @@
             }
         }
     }
-
+    
     .footer-container {
         font-size: 10px;    
+    }
+
+    .title {
+
+        h1 {
+            font-size: calc(0.8em + 1vw) 
+        }
+        
     }
 }
 
@@ -64,20 +71,8 @@
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
     .svg-band {
-        display: none; /* desaparece el header cuando lo visualizamos en mobile*/
+        display: none; 
     }
-
-    .logo {
-        display: none;
-    }
-
-    /*body {
-        background-color: #aec2d4;
-    }
-
-    .photo-grid-item {
-        width: 50% !important;*/   /* !import le da prioridad */
-    /*}*/
 }
 
 /* Desktop */
