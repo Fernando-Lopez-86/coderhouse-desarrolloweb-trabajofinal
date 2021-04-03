@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-strong {
-  background-color: #B2DEFF;
-}
-
 a, a:hover, a:focus {
   cursor: pointer;
   text-decoration: none;
@@ -102,21 +98,7 @@ a, a:hover, a:focus {
   }*/
 }
 /********************************************FIN MEDIA QUERY*********************************************/
-/*@media all and (max-width: 600px){
-
-    div {
-        width:100%;
-        height:auto;
-        //margin-left:10px;
-    }
-
-    img {
-        width:100%;
-        height:auto;
-        //margin-left:10px;
-    }
-}*/
-.form-container, .carousel-container {
+.form-container, .carousel-container, .header-sticky-container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -135,23 +117,13 @@ a, a:hover, a:focus {
 }
 
 .header {
-  /*font-family: 'Rubik', sans-serif;
-  font-size: 28px;*/
-  /*width: 100%;
-  max-width: 100%;*/
   text-align: center;
-  /*border: 1px solid black;*/
 }
 
 .header-sticky-container {
-  width: 100%;
   height: auto;
   max-width: 100%;
-  /*font-family: 'Rubik', sans-serif;
-  font-size: 28px;*/
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   background: linear-gradient(-45deg, #f1815f, #e73c7e, #23a6d5, #23d5ab);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
@@ -159,14 +131,10 @@ a, a:hover, a:focus {
 .header-sticky-container .logo {
   width: 100%;
   max-width: 90px;
-  /*min-width: 45px;*/
   height: auto;
-  /*border-radius: 30px;*/
   text-align: center;
 }
 .header-sticky-container .content {
-  /*width: 100%;
-  height: auto;*/
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -193,13 +161,11 @@ a, a:hover, a:focus {
 }
 
 .footer-container {
-  /*top: 20px;*/
   width: 100%;
   height: auto;
 }
 .footer-container .footer {
   margin-top: 45px;
-  /*position: absolute;*/
   width: 100%;
   background: rgba(0, 0, 0, 0.781);
   color: aliceblue;
@@ -209,15 +175,12 @@ a, a:hover, a:focus {
   float: center;
   width: 100%;
   height: auto;
-  /*font-weight: bold;*/
-  /*margin: auto;*/
 }
 .footer-container .footer-icons {
   float: right;
   padding-right: 10px;
 }
 
-/* change the color of active or hovered links */
 .nav-item {
   padding: 5px;
   padding-left: 50px;
@@ -225,8 +188,6 @@ a, a:hover, a:focus {
   font-size: 20px;
 }
 .nav-item .nav-link:hover {
-  /*font-size: 21px;*/
-  /*font: bold;*/
   color: blue;
 }
 
@@ -247,6 +208,42 @@ a, a:hover, a:focus {
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
   border: 1px solid #5dc1b9;
+}
+
+.section-introduction {
+  position: relative;
+  height: auto;
+  background: #f5f5f5;
+}
+.section-introduction .svg-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+.section-introduction .presentation-natura-container {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.section-introduction .presentation-tupperware-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.section-introduction .presentation-image-natura {
+  width: 100%;
+  max-width: 280px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.section-introduction .presentation-image-tupperware {
+  width: 100%;
+  max-width: 390px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 .section-container-text {
@@ -280,47 +277,6 @@ a, a:hover, a:focus {
   opacity: 0.7;
 }
 
-.presentation-natura-container {
-  width: 100%;
-  height: auto;
-  margin-top: 40px;
-}
-
-.presentation-tupperware-container {
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-}
-
-.presentation-image-natura {
-  width: 100%;
-  max-width: 280px;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  border-radius: 50%;
-}
-
-.presentation-image-tupperware {
-  width: 100%;
-  max-width: 390px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  border-radius: 50%;
-}
-
-.svg-band {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-}
-
-.section-introduction {
-  position: relative;
-  height: auto;
-  background: #f5f5f5;
-}
-
 .form-container .form {
   background-color: #e5eaee;
   border-radius: 3px;
@@ -330,7 +286,7 @@ a, a:hover, a:focus {
   margin: auto;
 }
 
-#blog_area .card {
+#blog-area .card {
   border-radius: 0.25rem;
   overflow: hidden;
   background: #fff;
@@ -339,25 +295,25 @@ a, a:hover, a:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0 0 1em 0;
 }
-#blog_area .card:hover {
+#blog-area .card:hover {
   box-shadow: 0.1rem 1rem 2rem rgba(0, 0, 0, 0.12), -0.1rem 0 2rem rgba(0, 0, 0, 0.12);
 }
-#blog_area .card .card__img {
+#blog-area .card .card-img {
   position: relative;
   overflow: hidden;
 }
-#blog_area .card .card__img:hover {
+#blog-area .card .card-img:hover {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-#blog_area .card .card__img:hover img {
+#blog-area .card .card-img:hover img {
   transform: scale(1.2);
 }
-#blog_area .card .card__img img {
+#blog-area .card .card-img img {
   transition: all 1s ease 0s;
   width: 100%;
 }
-#blog_area .card .card__date {
+#blog-area .card .card-date {
   background: white;
   color: #fff;
   font-size: 14px;
@@ -370,28 +326,28 @@ a, a:hover, a:focus {
   opacity: 0.7;
   transition: opacity 0.25s ease-in-out;
 }
-#blog_area .card .card__date:hover {
+#blog-area .card .card-date:hover {
   opacity: 1;
 }
-#blog_area .card .card__content {
+#blog-area .card .card-content {
   margin: 5px 20px;
   padding-bottom: 15px;
 }
-#blog_area .card .card__content .card__title {
+#blog-area .card .card-content .card-title {
   text-transform: uppercase;
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
 }
-#blog_area .card .card__content h4 {
+#blog-area .card .card-content h4 {
   margin-bottom: 10px;
   font-size: 17px;
 }
-#blog_area .card .card__content .card__content-jcenter {
+#blog-area .card .card-content .card-content-jcenter {
   text-align: justify;
   text-indent: 1rem;
 }
-#blog_area .card .card__content span > a {
+#blog-area .card .card-content span > a {
   color: #fff;
   font-size: 14px;
   padding: 5px 10px;
@@ -403,7 +359,7 @@ a, a:hover, a:focus {
   background: white;
   opacity: 0.6;
 }
-#blog_area .card .card__content span > a:hover {
+#blog-area .card .card-content span > a:hover {
   opacity: 1;
 }
 
